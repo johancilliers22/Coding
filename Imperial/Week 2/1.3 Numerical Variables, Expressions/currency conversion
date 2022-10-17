@@ -1,0 +1,9 @@
+#include <iostream>
+ 
+int main(){
+  double n1,euro;
+  std::cout << "Please enter the amount of money you wish to exchange in GBP(£) to Euros(€): " << std::endl;
+  std::cin >> n1;
+  euro = 1.10 * n1;
+  std::cout << "£" << n1 << " = " << "€" << euro << std::endl;
+}

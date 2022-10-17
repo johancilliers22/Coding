@@ -1,0 +1,17 @@
+#include <iostream>
+#include <fstream>
+#include <cstdlib>
+#include <vector>
+
+int mfact(int n){
+    if(n == 0){
+        return 1; // base case 
+    }
+    else{
+        return n * mfact(n-1); // recursive call
+    }
+}
+
+int main(){
+    std::cout<<mfact(25)<<std::endl;
+}

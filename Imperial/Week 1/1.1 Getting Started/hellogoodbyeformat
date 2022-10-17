@@ -1,0 +1,12 @@
+#include <iostream>
+ 
+int main(){
+    std::cout << "hello" << std::endl;
+    // we print hello, then print a newline
+    // this is equivalent to
+    // std::cout << "hello";
+    // std::cout << std::endl;
+ 
+    std::cout << "goodbye" << std::endl;
+    // we print goodbye, then print a newline
+}

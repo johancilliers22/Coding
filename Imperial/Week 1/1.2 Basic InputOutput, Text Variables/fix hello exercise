@@ -1,0 +1,11 @@
+#include <iostream>
+ 
+int main(){
+  std::cout << "hello" << std::endl;
+}
+
+from:
+#include <iostring>
+ 
+int main(){
+    std::cout >> "hello"

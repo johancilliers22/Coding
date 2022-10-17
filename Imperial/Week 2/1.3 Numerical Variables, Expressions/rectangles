@@ -1,0 +1,12 @@
+#include <iostream>
+ 
+int main(){
+  int n1,n2,perimeter,area;
+  std::cout << "Please enter length of rectangle: " << std::endl;
+  std::cin >> n1;
+  std::cout << "Please enter width of rectangle: " << std::endl;
+  std::cin >> n2;
+  perimeter = (2*n1) + (2*n2);
+  area = n1*n2;
+  std::cout << "The area of your rectangle is: " << area << " and the perimeter of your rectangle is: " << perimeter << std::endl;
+}

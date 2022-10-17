@@ -1,0 +1,31 @@
+#include <iostream>
+ 
+int main(){
+    int n, nmin, nmax, nmid, nguess;
+    std:: string reply;
+    std::cout << "please enter the lower bound number and upper bound number" << std::endl;
+    std::cin >> nmin >> nmax;
+    nguess = 0;
+    n = 2222;
+    while (nguess != n){ 
+      if (((nmax+nmin) / 2) == 0){
+        nmid = (nmax+nmin)/2;
+      }
+      else{
+        nmid = ((nmax+nmin)+1)/2;
+      }
+      nguess = nmid;
+      std::cout << "is the number you're thinking of " << nguess << " ?, if not, is your number higher or lower? (h/l) or (y)" << std::endl;
+      std::cin >> reply;
+      if (reply == "y"){
+        n = nguess;
+        std::cout << "your number was " << n << std::endl;
+      }
+      if (reply == "h"){
+        nmin = nguess;
+      }
+      if (reply == "l"){
+        nmax = nguess;
+      }
+    } 
+}

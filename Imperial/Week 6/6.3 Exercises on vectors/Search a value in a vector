@@ -1,0 +1,6 @@
+#include <iostream>
+#include <vector>
+//This function should check if the vector contains an element with value n and return the index of (the first occurrence of) the element if it is found and -1 if not.
+int main(){
+    int min_vector_element(const std::vector<double>& vin)
+}

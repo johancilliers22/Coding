@@ -1,0 +1,8 @@
+while( (-11 < n) && (n < 11) ){
+    ...
+}
+this is in the range of -10 to 10, with extremes included
+while(-11 < n < 11){ // wrong
+    ...
+}
+This would include the number 11, which we don't want if we wanted only -10 to 10 with decimals.

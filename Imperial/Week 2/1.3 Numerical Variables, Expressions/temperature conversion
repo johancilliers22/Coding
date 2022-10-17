@@ -1,0 +1,9 @@
+#include <iostream>
+ 
+int main(){
+  double t1,fahren;
+  std::cout << "Please enter the current temperature in Celsius (C) to convert to Fahrenheit (F): " << std::endl;
+  std::cin >> t1;
+  fahren =  (t1*9/5) + 32;
+  std::cout << "Celcius: " << t1 << " = " << "Fahrenheit: " << fahren << std::endl;
+}

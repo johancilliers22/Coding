@@ -1,0 +1,12 @@
+#include <iostream>
+#include <cmath>
+ 
+int main(){
+    std::cout << "input base x and exponential n: " << std::endl;
+    int x,n;
+    std::cin >> x >> n;
+    for (int i=1; i<n; i++){
+        std::cout << x << "^" << i << " = " <<std::pow(x, i) << std::endl;
+    }
+    std::cout << x << "^" << n << " = " <<std::pow(x, n) << std::endl;
+}

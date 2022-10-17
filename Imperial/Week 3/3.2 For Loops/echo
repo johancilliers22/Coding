@@ -1,0 +1,14 @@
+#include <iostream>
+ 
+int main(){
+    int n;
+ 
+    std::cin >> n; // initialisation
+ 
+    for( ; n != 0; ){ // condition
+        std::cout << n << std::endl;
+        std::cin >> n; // update
+    }
+}
+
+Since we write 2 more lines after the for loop anyway, it is preferable to use a while loop for loops like this.

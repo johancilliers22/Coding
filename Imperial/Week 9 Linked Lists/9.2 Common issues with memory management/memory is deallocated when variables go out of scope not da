@@ -1,0 +1,13 @@
+#include <iostream>
+ 
+void f(){
+    int a;
+}
+ 
+int main(){
+    for(int i = 0; i < 1000; i++){
+        f();
+        // at each iteration variable a in f() is allocated
+        // and then deallocated when the function terminates
+    }
+}

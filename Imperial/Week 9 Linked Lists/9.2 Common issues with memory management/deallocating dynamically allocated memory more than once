@@ -1,0 +1,11 @@
+#include <iostream>
+ 
+int main(){
+    int* pi;
+    pi = new int;
+    delete pi;
+    // ok deallocated once
+ 
+    // delete pi;
+    // not ok to deallocate again
+}

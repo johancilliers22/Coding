@@ -1,0 +1,34 @@
+#include <iostream>
+#include <fstream>
+#include <cstdlib>
+#include <vector>
+ 
+int main(){
+    std::ifstream infile; 
+    infile.open("input.txt");
+ 
+    std::vector<int> v;
+ 
+    if(!infile.is_open()){ 
+        std::cout << "error opening file" << std::endl;
+        return EXIT_FAILURE;
+    }
+ 
+    int tmp;
+ 
+    while(infile >> tmp){
+        v.push_back(tmp); 
+        // instead of printing the values
+        // as in the example above
+        // first we store them in a vector
+    }
+    int i;
+    int n = v.size();
+    for(i=n-1;i>-1;i--){
+      std::cout << v[i] << std::endl;
+    }
+    infile.close(); 
+ 
+    // TODO: print the content of v in reversed order
+ 
+}

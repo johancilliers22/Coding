@@ -1,0 +1,29 @@
+#include <iostream>
+ 
+int main(){
+    int n, counter = 0; // initialisation of counter
+ 
+    std::cin >> n;
+ 
+    while(counter < n){ // condition involving counter
+        std::cout << "hello" << std::endl;
+        counter = counter + 1; // increment/update of counter
+    }
+}
+This can be written as a for loop:
+#include <iostream>
+ 
+int main(){
+    int n;
+ 
+    std::cin >> n;
+ 
+    for(int counter = 0; counter < n; counter = counter + 1){
+        std::cout << "hello" << std::endl;
+    }
+}
+
+Writing something n-times:
+for(int i = 0; i < n; i++){
+    // include here what needs to be done n times
+}
