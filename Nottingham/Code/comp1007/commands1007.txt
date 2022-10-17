@@ -1,0 +1,57 @@
+list of files:
+ls
+ls -a (hidden files too)
+
+change directory:
+cd
+cd ~/Documents/comp1007
+cd .. //go back to parent directory//
+mkdir comp1007 //creates directory//
+
+visual studio code:
+code hello.c //creates file hello.c in current directory and opens in vsc//
+
+compiling code:
+gcc hello.c
+gcc -o hello hello.c //compiles hello.c to hello//
+./hello //runs program called hello//
+./a.out //runs last compiled code//
+
+copy file:
+cp ~/Downloads/nand2tetris.zip . //copies file into the current directory//
+
+unzip file:
+unzip nand2tetris.zip
+
+hardware simulator:
+./HardwareSimulator.sh
+./HardwareSimulator.sh &
+
+make file an executable:
+chmod +x *.sh
+
+komodo start:
+kmd -e
+
+
+
+
+java download:
+sudo apt install openjdk-11-jre-headless  # version 11.0.16+8-0ubuntu1~22.04, or
+sudo apt install default-jre              # version 2:1.11-72build2
+sudo apt install openjdk-17-jre-headless  # version 17.0.3+7-0ubuntu0.22.04.1
+sudo apt install openjdk-18-jre-headless  # version 18~36ea-1
+sudo apt install openjdk-8-jre-headless   # version 8u312-b07-0ubuntu1
+
+dpkg --list | grep jdk
+
+sudo apt remove default-jdk-headless
+sudo apt remove openjdk-11-jdk:amd64
+sudo apt remove openjdk-11-jdk-headless:amd64 
+sudo apt remove openjdk-11-jre:amd64
+sudo apt remove openjdk-11-jre-headless:amd64
+sudo apt remove openjdk-8-jre-headless:amd64
+sudo apt remove openjdk-11-jre-headless:amd64
+sudo apt remove 11.0.16+8-0ubuntu1~22.04
+sudo apt remove openjdk-8-jre-headless:amd64
+sudo apt remove 8u342-b07-0ubuntu1~22.04 

@@ -1,0 +1,57 @@
+git personal access token:
+glpat-ypkG-2bqqTytbMVM8v5B
+
+git clone project:
+git clone https://projects.cs.nott.ac.uk/XXXXXX/comp1005_2022_lab_activity_01.git
+
+git install git:
+sudo apt install git
+
+git navigate to directories & create file:
+cd comp1005_2022_lab_activity_01
+gedit task1.c &
+
+add file to project:
+git add task1.c
+
+git compile code:
+gcc -Wall -ansi -pedantic-errors -o task1 task1.c
+
+git run code:
+./task1
+
+git commit changes:
+git commit -am "my first commit"
+
+git push changes:
+git push
+
+///////////////////////////////////////////////////
+
+gcc line options:
+man gcc
+
+gcc C library manuals:
+man 3 printf
+man stdio
+
+compilx = gcc commands alias
+
+ssh keyfingerprint:
+SHA256:Yc2jkCJ2OLEMme5EocE2e4dphKHiEZ0wBpcLDp3xk3I <comment>
+
+key's randomart image:
++--[ED25519 256]--+
+|*@X+.            |
+|O@*O . . o       |
+|Xo%.E o o +      |
+|o*o@ + o o .     |
+|o.o .   S        |
+| .               |
+|                 |
+|                 |
+|                 |
++----[SHA256]-----+
+
+ssh key:
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMQhLMFzcuIiGub8GpY9gUbi/bRHqFVDYv2KWDnWt9G2 <comment>
