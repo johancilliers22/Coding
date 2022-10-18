@@ -1,6 +1,0 @@
-#include <iostream>
-#include <vector>
-//This function should provide as output vector vout containing all the elements in vin1 followed by all the elements in v2.
-int main(){
-    void append_vectors(const std::vector<int>& vin1, const std::vector<int>& vin2, std::vector<int>& vout)
-}

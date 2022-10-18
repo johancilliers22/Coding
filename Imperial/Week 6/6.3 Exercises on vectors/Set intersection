@@ -1,6 +1,0 @@
-#include <iostream>
-#include <vector>
-//Once again, we are considering vin1 and vin2 as sets. After the function call vout should contain their intersection. As in the exercise above, use function search_vector.
-int main(){
-    void intersection_vector(const std::vector<int>& vin1, const std::vector<int>& vin2, std::vector<int>& vout)
-}

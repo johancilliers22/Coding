@@ -1,6 +1,0 @@
-#include <iostream>
-#include <vector>
-//This function takes in input a vector (called vin) and a numerical value (called t) and provides in output (using passing by reference) a vector called vout containing all the values in vin that are less than t.
-int main(){
-    void filter_v(const std::vector<double>& vin, double t, std::vector<double>& vout)
-}

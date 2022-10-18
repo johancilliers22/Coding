@@ -1,8 +1,0 @@
-#include <iostream>
-#include <vector>
-//Remember that, since we will call search_vector from inside union_vector then the definition of search_vector must be in the code before the definition of union_vector.
-int main(){
-    void union_vector(const std::vector<int>& vin1, const std::vector<int>& vin2, std::vector<int>& vout)
-
-    int search_vector(int n, const std::vector<int>& vin)
-}

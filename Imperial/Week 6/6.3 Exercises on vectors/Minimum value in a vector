@@ -1,6 +1,0 @@
-#include <iostream>
-#include <vector>
-//This function should return the index of the smallest element in the vector and -1 if the vector is empty.
-int main(){
-    int min_vector_element(const std::vector<double>& vin)
-}
